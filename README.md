@@ -28,18 +28,19 @@
 ## :camera: Screenshots
 
 ![React-Native img](./img/crypto.jpg)
-![React-Native img](./img/react.jpg)
+![React-Native img](./img/react.png)
 
 ## :signal_strength: Technologies
 
 * [Expo v42](https://docs.expo.io/) framework & platform for universal React applications, installed globally
 * [React v16](https://reactjs.org/) JavaScript library for building user interfaces
-* [Android Studio v4](https://developer.android.com/studio) used to simulate Android device
+* [Android Studio v4](https://developer.android.com/studio) installed globally, used to simulate Android device
 
 ## :floppy_disk: Setup
 
 * Run `npm i` to install dependencies
 * Run `npm start` to start expo on a localhost port
+* See `package.json` for the npm commands to create build files etc.
 * Android Studio has to be installed and set up then the AVD Manager is run from the Configure menu
 
 ## :computer: Code Examples
@@ -75,7 +76,7 @@ const CoinItem = ({ coin }) => (
 
 ## :cool: Features
 
-* Expo bar code used to connect mobile to project. The Expo framework seems to be easy to use.
+* Expo bar code used to connect mobile to project. The Expo framework is easy to use.
 * Android Studio simulation on mobile device
 
 ## :clipboard: Status & To-do list
