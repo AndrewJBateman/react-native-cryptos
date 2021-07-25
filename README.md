@@ -1,6 +1,7 @@
 # :zap: React Native Cryptos
 
 * React-Native app to display cryptocurrency API data
+* Tutorial code from [Fazt Code](https://www.youtube.com/channel/UCMn28O1sQGochG94HdlthbA) - see [:clap: Inspiration](#clap-inspiration) below
 * **Note:** to open web links in a new window use: _ctrl+click on link_
 
 ![GitHub repo size](https://img.shields.io/github/repo-size/AndrewJBateman/react-native-cryptos?style=plastic)
@@ -10,18 +11,22 @@
 
 ## :page_facing_up: Table of contents
 
-* [General info](#general-info)
-* [Screenshots](#screenshots)
-* [Technologies](#technologies)
-* [Setup](#setup)
-* [Features](#features)
-* [Status](#status)
-* [Inspiration](#inspiration)
-* [Contact](#contact)
+* [React Native Cryptos](#react-native-cryptos)
+  * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
+  * [:books: General info](#books-general-info)
+  * [:camera: Screenshots](#camera-screenshots)
+  * [:signal_strength: Technologies](#signal_strength-technologies)
+  * [:floppy_disk: Setup](#floppy_disk-setup)
+  * [:computer: Code Examples](#computer-code-examples)
+  * [:cool: Features](#cool-features)
+  * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
+  * [:clap: Inspiration](#clap-inspiration)
+  * [:file_folder: License](#file_folder-license)
+  * [:envelope: Contact](#envelope-contact)
 
 ## :books: General info
 
-* Cryptocurrency data from the [coingecko API](https://www.coingecko.com/en/api) and does not require an API key
+* Cryptocurrency data from the [CoinGecko API](https://www.coingecko.com/en/api) and does not require an API key
 * React [useEffect hook](https://reactjs.org/docs/hooks-effect.html) used for data fetching
 * React [useState hook](https://reactjs.org/docs/hooks-state.html) used to initialise & update coins, refeshing and search states
 
@@ -33,6 +38,8 @@
 ## :signal_strength: Technologies
 
 * [Expo v42](https://docs.expo.io/) framework & platform for universal React applications, installed globally
+* [React Native v0.64](https://reactnative.dev/) to create native app for Android and iOS
+* [react-native-web v0.17.1](https://www.npmjs.com/package/react-native-web) React Native Components and APIs for the Web.
 * [React v16](https://reactjs.org/) JavaScript library for building user interfaces
 * [Android Studio v4](https://developer.android.com/studio) installed globally, used to simulate Android device
 
@@ -43,7 +50,7 @@
 * See `package.json` for the npm commands to create build files etc.
 * Android Studio has to be installed and set up then the AVD Manager is run from the Configure menu
 
-## :computer: Code Examples
+## :computer: Code Example by Fazt Code
 
 * Code by Fazt Code to display Cryptocurrency data. Includes ternery expression to show price change data in green or red
 
