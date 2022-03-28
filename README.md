@@ -11,15 +11,15 @@
 
 ## :page_facing_up: Table of contents
 
-* [React Native Cryptos](#react-native-cryptos)
+* [:zap: React Native Cryptos](#zap-react-native-cryptos)
   * [:page_facing_up: Table of contents](#page_facing_up-table-of-contents)
   * [:books: General info](#books-general-info)
   * [:camera: Screenshots](#camera-screenshots)
   * [:signal_strength: Technologies](#signal_strength-technologies)
   * [:floppy_disk: Setup](#floppy_disk-setup)
-  * [:computer: Code Examples](#computer-code-examples)
+  * [:computer: Code Example by Fazt Code](#computer-code-example-by-fazt-code)
   * [:cool: Features](#cool-features)
-  * [:clipboard: Status & To-Do List](#clipboard-status--to-do-list)
+  * [:clipboard: Status & To-do list](#clipboard-status--to-do-list)
   * [:clap: Inspiration](#clap-inspiration)
   * [:file_folder: License](#file_folder-license)
   * [:envelope: Contact](#envelope-contact)
@@ -37,15 +37,16 @@
 
 ## :signal_strength: Technologies
 
-* [Expo v42](https://docs.expo.io/) framework & platform for universal React applications, installed globally
-* [React Native v0.64](https://reactnative.dev/) to create native app for Android and iOS
-* [react-native-web v0.17.1](https://www.npmjs.com/package/react-native-web) React Native Components and APIs for the Web.
-* [React v16](https://reactjs.org/) JavaScript library for building user interfaces
+* [Expo v44](https://docs.expo.io/) framework & platform for universal React applications, installed globally
+* [React Native v0.67.4](https://reactnative.dev/) to create native app for Android and iOS
+* [react-native-web v0.17.7](https://www.npmjs.com/package/react-native-web) React Native Components and APIs for the Web.
+* [React v17](https://reactjs.org/) JavaScript library for building user interfaces
 * [Android Studio v4](https://developer.android.com/studio) installed globally, used to simulate Android device
 
 ## :floppy_disk: Setup
 
 * Run `npm i` to install dependencies
+* `npm install -g expo-cli --force` to install Expo CLI globally (force option may not be required)
 * Run `npm start` to start expo on a localhost port
 * See `package.json` for the npm commands to create build files etc.
 * Android Studio has to be installed and set up then the AVD Manager is run from the Configure menu
